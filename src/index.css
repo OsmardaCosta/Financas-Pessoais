@@ -9,6 +9,6 @@
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: blue;
+    background-color: gray;
     border-radius: 5px;
 }

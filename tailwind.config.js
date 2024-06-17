@@ -6,11 +6,13 @@ export default {
   ],
   theme: {
     extend: {
-      boxShadow: {
-        'shadow':'2px 0px 0px 0px 5px rgba(0,0,0,0.5)'
+      backgroundImage: {
+        'home' : 'url(./src/components/Pages/Home/Assets/header.jpg)'
+      },
+      backgroundColor: {
+        'overlay' : 'rgba(0,0,0,0.4)'
       }
     },
   },
   plugins: [],
 }
-
