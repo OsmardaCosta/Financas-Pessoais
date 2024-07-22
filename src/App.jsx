@@ -1,5 +1,5 @@
 import { useState, useRef } from "react"
-import { Context } from './Components/Context/Context'
+import { Context } from './Context/Context'
 import Routess from './Components/Routes/Routess'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -50,7 +50,7 @@ function App() {
   }
 
   return (
-    <div className="bg-zinc-100">
+    <div>
       <Context.Provider value={{aside, setAside, Transacoes, deletetrans, inputref, selectref, createTrans
       }}>
         <Routess/>

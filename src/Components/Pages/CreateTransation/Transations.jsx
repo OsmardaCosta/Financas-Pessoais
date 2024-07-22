@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import classNames from "classnames"
-import {Context} from '../../Context/Context'
+import {Context} from '../../../Context/Context'
 import { FaChevronCircleDown, FaChevronCircleUp} from "react-icons/fa"
 import { MdDelete } from "react-icons/md"
 

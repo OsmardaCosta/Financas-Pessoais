@@ -4,7 +4,7 @@ import Welcome from '../Pages/Home/Welcome'
 import Aside from '../Pages/CreateTransation/Aside'
 import Create from '../Pages/CreateTransation/Create'
 import Transations from '../Pages/CreateTransation/Transations'
-import Inicio from '../Pages/Inicio'
+import Inicio from '../Pages/Start/Inicio'
 
 const Routess = () =>{
     return(
