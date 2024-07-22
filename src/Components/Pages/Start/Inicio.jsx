@@ -11,8 +11,9 @@ const Inicio = () => {
     return (
         <div className={`bg-gradient-to-b from-[#892be22d] to-white w-[100vw] ${aside && 'md:w-[calc(100%+70px)]'}`}>
 
-            <header className={classNames(' bg-white md:p-4 flex justify-between w-[100%] p-3 lg:w-[100%]', {
+            <header className={classNames('fixed text-center bg-white md:p-4 flex justify-between w-[100%] p-3 ', {
                 'md:w-[calc(100vw-70px)]': !aside,
+                'md:w-[calc(100vw-200px)] lg:w-[calc(100vw)]': aside,
             })}>
                 <div className='flex items-center'>
                     <FaMoneyBill1Wave className="rotate-45 text-3xl text-secundaryColor" />

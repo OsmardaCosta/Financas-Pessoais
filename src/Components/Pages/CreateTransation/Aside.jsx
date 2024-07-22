@@ -32,7 +32,7 @@ const Aside = () => {
     }
     return (
         <>
-            <aside className={classNames(' z-[2] fixed bottom-0 bg-white w-[100vw] flex justify-center items-center md:shadow-xl md:block md:p-6 transition-all lg:w-[250px]',
+            <aside className={classNames(' z-[2] fixed bottom-0 bg-white w-[100vw] flex justify-center items-center md:fixed md:shadow-xl md:block md:p-6 transition-all lg:w-[250px]',
                 {
                     "md:relative md:w-[70px] md:h-[100vh] ": !aside,
                     "w-[200px] md:h-[100vh] md:block md:relative": aside,
