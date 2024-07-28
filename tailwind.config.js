@@ -13,9 +13,6 @@ export default {
       colors: {
         secundaryColor: '#8a2be2'
       },
-      textShadow:{
-        text: '0px 0px 1px 1px rgba(0,0,0,0.45)'
-      },
       backgroundImage: {
         'home': 'url(./src/components/Pages/Home/Assets/header.jpg)'
       },

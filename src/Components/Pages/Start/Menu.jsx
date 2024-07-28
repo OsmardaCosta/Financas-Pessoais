@@ -14,10 +14,10 @@ const Menu = () => {
 
             <IoIosMenu onClick={toggleMenu} className='cursor-pointer select-none text-3xl text-secundaryColor' />
 
-            <div onClick={toggleMenu} className={` z-10 h-[100vh] w-[100vw] bg-overlay transition backdrop-blur-sm absolute top-0 left-0 ${openMenu ? 'visible' : 'hidden'}`}></div>
+            <div onClick={toggleMenu} className={`z-10 h-[100vh] w-[100vw] bg-overlay transition backdrop-blur-sm absolute top-0 left-0 ${openMenu ? 'visible' : 'hidden'}`}></div>
 
-            <div className={`bg-white absolute z-20 h-[100vh] w-[60vw] animate-opacityMenu transition-[opacity.3s] text-center shadow-lg p-3 ${openMenu ? 'left-0' : '-left-[700px]'} `}>
-            <IoIosClose onClick={toggleMenu} className={`absolute text-secundaryColor -top-3 -right-[50px] text-5xl`} />
+            <div className={`bg-white top-0 absolute z-20 h-[100vh] w-[60vw] animate-opacityMenu text-center p-3 ${openMenu ? 'left-0' : '-left-[700px]'} `}>
+            <IoIosClose onClick={toggleMenu} className={`absolute text-secundaryColor -top-1 -right-[50px] text-5xl`} />
                 <ul className='h-[100%] flex flex-col justify-around'>
                     <li>Instagram</li>
                     <li>GitHub</li>
@@ -28,5 +28,4 @@ const Menu = () => {
         </div>
     )
 }
-
 export default Menu

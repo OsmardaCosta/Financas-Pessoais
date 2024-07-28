@@ -57,22 +57,26 @@ const Welcome = () => {
                 <button onClick={StartHome} className='z-[30] absolute -top-[40px] right-[50%] translate-x-14 px-6 py-2 bg-[#8a2be2] text-white rounded -mt-[10px] shadow-md font-medium text-lg md:hidden'>Comece</button>
                 <h1 className='text-center mt-8 font-semibold text-2xl'>Vantagens em gerir suas finanças</h1>
                 <div className=' mt-6 grid grid-cols-1 md:grid-cols-3 md:gap-4'>
-                    <div className='text-center mb-4 p-3 animate-animationParagraphs '>
-                        <h2 className='font-medium text-lg'>
+                   
+                    <div className='text-center flex flex-col items-center mb-4 p-3 animate-animationParagraphs md:text-left md:items-start'>
+                        <h2 className='flex items-center font-medium text-lg'>
+                        <div className='w-[20px] h-[20px] bg-green-500 rounded-full mr-2'></div>
                             Acesso em Tempo real
                         </h2>
                         <p>Gerir finanças através de uma aplicação web permite acesso instantâneo as informacões financeiras a qualquer momento  e de qualquer lugar com uma conexão a internet. Isso facilita o monitoramento e tomada de deçisões financeiras rápidas e informadas sem a necessidade de estar em um local específico.</p>
                     </div>
 
-                    <div className='text-center mb-4 p-3 animate-animationParagraphs'>
-                        <h2 className='font-medium text-lg'>
+                    <div className='text-center flex flex-col items-center mb-4 p-3 animate-animationParagraphs md:text-left md:items-start'>
+                        <h2 className='flex items-center font-medium text-lg'>
+                        <div className='w-[20px] h-[20px] bg-green-500 rounded-full mr-2'></div>
                             Automação e eficiência
                         </h2>
                         <p>Aplicações web de gestão financeira frequentemente oferecem funcionalidades de automação, com categorização de despesas, geração de relatórios e lembretes de pagamento. Isso reduz a necessidade de entrada manual de dados, economiza erros humanos, tornando processo mais eficiente.</p>
                     </div>
 
-                    <div className='text-center mb-4 p-3 animate-animationParagraphs'>
-                        <h2 className='font-medium text-lg'>
+                    <div className='text-center flex flex-col items-center mb-4 p-3 animate-animationParagraphs md:text-left md:items-start'>
+                        <h2 className='flex font-medium text-lg items-center'>
+                            <div className='w-[20px] h-[20px] bg-green-500 rounded-full mr-2'></div>
                             Segurança e Backup
                         </h2>
                         <p>Aplicações web geralmente incluem recursos robustos de segurança, como criptografia de dados e autênticação de multifator. Além disso, os dados são frequentemente armazenadosem«« em servidores seguros com backups regulares, grarantindo que as informacões financeiras estejam protegidas contra perdas e acessos não autorizados-</p>
